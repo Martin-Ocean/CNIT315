@@ -90,7 +90,7 @@ do {
                                         if (LD < 12.0 || LD > L/2) {
                                         printf("Please enter in between 12.0-%f.\n", L/2);    
                                         }
-                        } while (LD < 15.0 || LD > 30.0);
+                        } while (LD < 15.0 || L/2);
                         printf("The length of deep end is:  %f", LD);
                         printf("\n");
 
